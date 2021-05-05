@@ -32,6 +32,7 @@ function getFetch(){
           document.querySelector('#changeURL').innerText = `YouTube URL: ${data.url}`
         }
         else{
+          // This will allow for changes of midia types
           alert("Media type not supported! Contact NASA Immediately")
         }
         document.querySelector('#name').innerText = `Pic Title: ${data.title}`
